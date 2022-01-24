@@ -1,17 +1,22 @@
-body { background-color: rgb(231, 202, 169);
-text-align: center;}
-h1 {
+body {
+    background-color: rgb(255, 192, 119);
     text-align: center;
-    font-family: Verdana;
-    text-shadow: 3px 4px 8px rgb(211, 153, 65);
+    color: rgb(0, 27, 0);
+    font-family:'Courier New', Courier, monospace;
+    text-align: center;
 }
-img {
-    height: 450px;
+#start{
+    display:grid;
+    grid-template-rows: auto 100px auto 120px;
+}
+#start h1{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 3px 4px 8px rgb(34, 24, 10);
+}
+#start img{
+    width: 60em;
+}
+#animals img{
     width: 450px;
 }
-.hej {
-    background-color: ivory;
-    background-size: 40px;
-}
-
 
