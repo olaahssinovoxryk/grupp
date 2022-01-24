@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(255, 192, 119);
+    background-color: rgb(235, 164, 72);
     text-align: center;
     color: rgb(0, 27, 0);
     font-family:'Courier New', Courier, monospace;
@@ -8,6 +8,12 @@ body {
 #start{
     display:grid;
     grid-template-rows: auto 100px auto 120px;
+    grid-template-areas:
+    "header"
+    "section1"
+    "section2"
+    "main"
+    "footer"
 }
 #start h1{
     font-family:Verdana, Geneva, Tahoma, sans-serif;
@@ -18,5 +24,25 @@ body {
 }
 #animals img{
     width: 450px;
+}
+.menu{
+    background-color: rgb(175, 103, 10);
+}
+footer{
+    border: solid;
+    border-radius: 25px;
+    background-color: rgb(175, 103, 10);
+}
+a:link{
+    color: white;
+}
+a:visited{
+    color: darkviolet;
+}
+a:focus, a:hover{
+    color: red;
+}
+a:active{
+    color:midnightblue;
 }
 
