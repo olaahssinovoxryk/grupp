@@ -13,7 +13,16 @@ body {
     "section1"
     "section2"
     "main"
-    "footer"
+    "footer";
+}
+#us{
+    display: grid;
+    grid-template-rows: auto 100px 300px 120px ;
+    grid-template-areas:
+    "header"
+    "section"
+    "main"
+    "footer";
 }
 #start h1{
     font-family:Verdana, Geneva, Tahoma, sans-serif;
@@ -25,24 +34,32 @@ body {
 #animals img{
     width: 450px;
 }
-.menu{
-    background-color: rgb(175, 103, 10);
-}
-footer{
+.menu,footer{
     border: solid;
     border-radius: 25px;
     background-color: rgb(175, 103, 10);
 }
+nav{
+    margin:30px;
+    display: grid;
+    grid-template-columns: 20em 40% 20em;
+    font-size: 3ex;
+}
+a{
+    text-decoration: none;
+}
 a:link{
-    color: white;
+    color: #FFFFFF;
 }
 a:visited{
-    color: darkviolet;
+    color: rgb(216, 216, 216);
 }
 a:focus, a:hover{
-    color: red;
+    color: rgb(192, 140, 98);
 }
 a:active{
-    color:midnightblue;
+    color:rgb(255, 115, 0);
 }
-
+.left{
+    list-style-type: none;
+}
