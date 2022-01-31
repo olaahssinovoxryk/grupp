@@ -24,7 +24,15 @@ body {
     "main"
     "footer";
 }
-#start h1{
+#choose{
+    display: grid;
+    grid-template-rows: 100px 24em 120px ;
+    grid-template-areas:
+    "header"
+    "main"
+    "footer";
+}
+header>h1{
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     text-shadow: 3px 4px 8px rgb(34, 24, 10);
 }
@@ -48,6 +56,12 @@ nav{
 a{
     text-decoration: none;
 }
+#choose p~a{
+    text-decoration: underline;
+}
+a[href^="https"]{
+    text-decoration: underline;
+}
 a:link{
     color: #FFFFFF;
 }
@@ -62,4 +76,10 @@ a:active{
 }
 .left{
     list-style-type: none;
+}
+#animals tr:nth-child(odd){
+    background-color: rgb(255, 202, 104);
+}
+#animals tr:nth-child(even){
+    background-color: rgb(253, 188, 90);
 }
