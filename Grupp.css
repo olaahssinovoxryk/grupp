@@ -1,12 +1,12 @@
-body {
-    background-color: rgb(235, 164, 72);
+body {/*inga vaideringsfel alls :))). Rukayas del, men det visade sig att varken hon eller mint kunde något om grid så Ola behövde ta över...*/
+    background-color: rgb(235, 164, 72);/*ökenfärg*/
     text-align: center;
-    color: rgb(0, 27, 0);
-    font-family:'Courier New', Courier, monospace;
+    color: rgb(0, 27, 0);/*regnskogsfärg*/
+    font-family:'Courier New', Courier, monospace;/*tyckte den passade bäst med temat djur*/
     text-align: center;
 }
 #start{
-    display:grid;
+    display:grid;/*grid är det enda jag har lärt mig att använda hittills, tror dock inte att det blev riktigt rätt överallt*/
     grid-template-rows: auto 100px auto 120px;
     grid-template-areas:
     "header"
@@ -36,7 +36,7 @@ header>h1{
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     text-shadow: 3px 4px 8px rgb(34, 24, 10);
 }
-#start img{
+#start img{/*jag vet att man inte ska använda sig av id så ofta. Har jag använt det lagom mycket?*/
     width: 60em;
 }
 #animals img{
@@ -56,13 +56,13 @@ nav{
 a{
     text-decoration: none;
 }
-#choose p~a{
+#choose p~a{/*det var lite otydligt att de var länkar*/
     text-decoration: underline;
 }
-a[href^="https"]{
+a[href^="https"]{/*det var lite otydligt att de var länkar*/
     text-decoration: underline;
 }
-a:link{
+a:link{/*färgen behöver ändras kanske? vit kan vara lite svår att se på vissa delar*/
     color: #FFFFFF;
 }
 a:visited{
@@ -77,7 +77,7 @@ a:active{
 .left{
     list-style-type: none;
 }
-#animals tr:nth-child(odd){
+#animals tr:nth-child(odd){/*var tvungen att lägga till detta, annars skulle jag inte ha gjort det*/
     background-color: rgb(255, 202, 104);
 }
 #animals tr:nth-child(even){
